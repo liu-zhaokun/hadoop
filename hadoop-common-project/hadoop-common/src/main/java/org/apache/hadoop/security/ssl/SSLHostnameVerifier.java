@@ -223,7 +223,7 @@ public interface SSLHostnameVerifier extends javax.net.ssl.HostnameVerifier {
          * Writes as SSLFactory logs as it is the only consumer of this verifier
          * class.
          */
-        static final Logger LOG = LoggerFactory.getLogger(SSLFactory.class);
+        static final Logger LOG = LoggerFactory.getLogger(AbstractVerifier.class);
 
         /**
          * This contains a list of 2nd-level domains that aren't allowed to
